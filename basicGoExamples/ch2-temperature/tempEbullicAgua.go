@@ -2,13 +2,22 @@
 package main
 
 import "fmt"
-import "tempConvert"
+//import "github.com/Jugarcia01/GoCode/basicGoExamples/ch2-temperature/tempConvert"
+//import "basicGoExamples/ch2-temperature/tempConvert"
 
-const ebullicF = 212.0
 
 func main() {
-    var tempEbullicAguaCent = f2c(ebullicF)
-    fmt.Printf("Punto de ebullición del Agua = %v°C\n",  tempEbullicAguaCent)
+    //var tempEbullicAguaCent = tempConvert.F2c(ebullicF)
+    const ebullicF = 212.0
+    tempEbullicAguaCent := F2c(ebullicF)
+    fmt.Printf("Punto de ebullición del Agua = %g°C\n",  tempEbullicAguaCent)
 
 }
 
+func F2c(fahrenheit float64) float64 {
+    return (fahrenheit-32.0)*(5.0/9.0)
+}
+
+func C2f(celsius float64) float64 {
+    return (celsius*(9.0/5.0))+32.0
+}

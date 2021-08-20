@@ -1,7 +1,7 @@
 // Realiza la conversion numerica entre grados de temperatura, de Fahrenheit a Celsius o Celsius a Fahrenheit.
 // e imprime el resultado en consola
-//package main
-package basicGoExamples
+package main
+//package basicGoExamples
 
 
 import "fmt"
@@ -15,9 +15,9 @@ func main(){
 }
 
 func F2c(fahrenheit float64) float64 {
-	return (fahrenheit-32.0)*(5/9)
+	return (fahrenheit-32.0)*(5.0/9.0)
 }
 
 func C2f(celsius float64) float64 {
-	return (celsius*(9/5))+32.0
+	return (celsius*(9.0/5.0))+32.0
 }
