@@ -9,9 +9,9 @@ import (
 	"io"
 	"io/ioutil"
 	"net/http"
-	//"net/url"
 	"os"
 	"time"
+	//"net/url"
 )
 
 func main() {
