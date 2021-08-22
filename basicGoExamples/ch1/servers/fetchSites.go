@@ -25,7 +25,7 @@ func main() {
     fmt.Println(<-ch)  // Recibe data del canal ch
   }
   fmt.Printf("%.2fs transcurridos\n", time.Since(start).Seconds())
-  
+
 }
 
 func fetch(url string, ch chan<- string) {
@@ -46,5 +46,4 @@ func fetch(url string, ch chan<- string) {
   ch <- fmt.Sprintf("%.2fs %7d %s", secs, nbytes, url)
 
 }
-
 
