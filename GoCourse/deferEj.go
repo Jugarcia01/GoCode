@@ -19,5 +19,8 @@ func alerta(){
 
 func operac(){
 	fmt.Println(" Funcion Operac ejecutada...")
+
+	fmt
 }
+
 
