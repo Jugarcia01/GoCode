@@ -1,6 +1,6 @@
 // Este programa realiza la busqueda/fetch de URLs en paralelo y reporta su tamaño y tiempo de respuesta
 // NOTA IMPORTANTE: Para iniciar este programa digite por ejemplo,
-//go run fetchSites.go ./fetchSites https://golang.org http://gopl.io a/com.termux/files/|https://godoc.org
+// go run fetchSites.go ./fetchSites https://golang.org http://gopl.io https://godoc.org
 
 package main
 
