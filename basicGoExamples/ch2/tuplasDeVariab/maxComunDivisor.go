@@ -1,5 +1,5 @@
 // Programa que realiza el cálculo del Maximo Común Divisor entre dos nuneros enteros.
-// https://sites.google.com/site/preprecalculo/unidad-1/calcula-el-mcm-minimo-comun-multiplo-y-mcd-maximo-comun-divisor
+// https://es.m.wikipedia.org/wiki/M%C3%A1ximo_com%C3%BAn_divisor
 
 //package tuplasDeVariab
 package main
