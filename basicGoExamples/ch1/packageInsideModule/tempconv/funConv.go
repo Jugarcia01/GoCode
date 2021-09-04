@@ -1,4 +1,10 @@
 // Funciones de conversión de temperatura
+package tempconv
+
+import (
+ // "tempconv"
+ "gopl.io/ch2/tempconv"
+)
 
 // F2c convierte un valor de temperatura Fahrenheit a Celsius
 func F2c(f Fahrenheit) Celsius {
