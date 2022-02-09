@@ -1,6 +1,7 @@
 {
     // Configuracion de Debug para Visual Studio Code
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    // https://github.com/golang/vscode-go/blob/HEAD/docs/debugging.md#connecting-to-headless-delve-with-target-specified-at-server-start-up
     "version": "0.2.0",
     "configurations": [
           {
