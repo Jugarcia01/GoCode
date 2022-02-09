@@ -8,10 +8,10 @@ import (
 )
 
 func main() {
-  fmt.Println("Convierte texto en diferentes formatos de minisculas a MAYUSCULAS y viceversa")
+  fmt.Println("Convierte texto en diferentes formatos de minisculas a MAYUSCULAS y viceversa\n")
 
   var txt1 = "Este ES UN texto de prueba"
-
+  fmt.Printf(txt1+"\n---- TEXTO PROCESADO -----\n")
 
   fmt.Printf(Mayus(txt1)+"\n")
   fmt.Printf(Minus(txt1)+"\n")
